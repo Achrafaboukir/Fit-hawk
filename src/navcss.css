@@ -1,0 +1,33 @@
+li {
+    padding: 8px;
+ }
+ul{
+    margin-left: 40px;
+}
+button.btn {
+    width: 130px;
+    font-size: 20px;
+    
+  }
+ .navc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.5s ease;
+  }
+
+  .navc.scrolled {
+    
+    border-bottom: 0.2px rgba(50, 48, 48, 0.156) solid;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 9999;
+  }
+a{
+  font-family: 'Roboto Condensed', sans-serif;
+font-weight: bolder;
+}
