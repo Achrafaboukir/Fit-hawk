@@ -1,0 +1,136 @@
+.container {
+    display: flex;
+    margin-top: 350px;
+  }
+  
+  .sidebar {
+    width: 250px;
+    margin-left: -120px;
+    box-sizing: border-box;
+    
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 0 0 0 20px;
+    box-sizing: border-box;
+    float: right;
+    margin-right: -110px;
+    margin-left: 160px;
+    margin-top: 50%;
+  
+  }
+  
+  .sidebar p{
+    color: rgb(29, 28, 28);
+    font-weight: 300;
+  }
+  .sidebar .menall{
+    color: rgb(73, 70, 70);
+  }
+  .sidebar div{
+    margin-left: 80px;
+    margin-bottom: 60px;
+  }
+  h1{
+    margin-bottom: 20px;
+  }
+  h5{
+    margin-bottom: 20px;
+  }
+  .product-cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: left;
+    
+  }
+  
+  .product-cart div {
+    
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+    width: 600px;
+  }
+  
+  .product-cart img {
+    width: 100%;
+    height: 500px;
+  }
+  
+  .product-cart h2 {
+    font-size: 24px;
+    margin-top: 10px;
+  
+  }
+  
+  .product-cart p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: black;
+    
+  }
+  h6{
+    float: right;
+  }
+  .shoptitle{
+    margin-bottom: 20px;
+    height: 70px;
+    border-bottom: 0.5px black solid;
+  }
+  .nextto {
+    width: 400px;
+    margin-left: 60%;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.nextto img {
+  height: 500px;
+  object-fit: cover;
+  margin-top: 15px;
+  
+}
+.product-grid {
+  display: flex;
+  gap: 70px;
+  
+}
+
+
+.product-grid div  {
+  width: 300px;
+  
+}
+.grid img {
+  width: 300px;
+  height: 400px;
+  
+}
+.colored-background {
+  background-color: #dfdfdf;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colored-background a {
+  color: #2b2a2a;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+}
+.secondmain{
+  margin-right: 60px;
+}
+.thirdmain{
+  margin-right: 60px;
+  margin-top: 70px;
+}
